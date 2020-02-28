@@ -1,0 +1,11 @@
+// |--------------------------------------------------------------------------
+// | MIXNS
+// |--------------------------------------------------------------------------
+
+// Browser Vendor Prefixes
+@mixin browser-vendor-prefix($property, $value, $vendors: webkit moz) {
+    @each $i in $vendors{
+		#{"-" + $i + "-" + $property} : #{$value} ;
+	}
+		#{$property} : #{$value} ;
+}

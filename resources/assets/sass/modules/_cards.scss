@@ -1,0 +1,26 @@
+// |--------------------------------------------------------------------------
+// | CARDS
+// |--------------------------------------------------------------------------
+
+.uk-card{
+	border: 1px solid #D3D3D3;
+	@include browser-vendor-prefix("box-shadow", 0);
+}
+
+.home-page,
+.stories-page{
+	.uk-card{
+		.uk-card-media-top{ 
+			img{
+				height: 240px;
+				width:100% }
+		}			
+	}
+}
+
+.admin-add-story,
+.admin-edit-story,
+.admin-sidebar-section{
+	.uk-card{
+		border: none !important}	
+}

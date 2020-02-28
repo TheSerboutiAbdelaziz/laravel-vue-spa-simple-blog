@@ -1,0 +1,21 @@
+
+// Fonts Awesomes Library
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+
+// UIkit  CSS Framework
+@import "./vendor/uikit";
+
+// App Custom CSS 
+//// Base
+@import "./base/mixins";
+@import "./base/variables";
+
+//// Modules
+@import "./modules/images";
+@import "./modules/cards";
+@import "./modules/tables";
+@import "./modules/forms";
+
+//// Layouts
+@import "./layouts/header";
+
