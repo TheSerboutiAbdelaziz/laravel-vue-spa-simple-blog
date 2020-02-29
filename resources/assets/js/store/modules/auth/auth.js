@@ -28,8 +28,7 @@ const actions = {
 			 authUrl = 'signin';
 			data = {
                 email: form.email,
-                password: form.password,
-                remember_token: form.remember,
+                password: form.password
 			}
 		}
 
