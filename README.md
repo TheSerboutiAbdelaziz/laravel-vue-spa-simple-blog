@@ -20,6 +20,6 @@ A simple blog built with Laravel 6 & Vue 2
 
 ## Screenshots
 
-[](screenshots/img-1.jpg)
-[](screenshots/img-2.jpg)
-[](screenshots/img-3.jpg)
+![](./screenshots/img-1.jpg)
+![](./screenshots/img-2.jpg)
+![](./screenshots/img-3.jpg)
