@@ -18,3 +18,8 @@ A simple blog built with Laravel 6 & Vue 2
 - [UiKit](https://getuikit.com/docs/introduction)
 - [Font Awesome](https://fontawesome.com/icons)
 
+## Screenshots
+
+[](screenshots/img-1.jpg)
+[](screenshots/img-2.jpg)
+[](screenshots/img-3.jpg)
