@@ -23,10 +23,6 @@ class SignInController extends Controller
     		$user = auth()->user();
     		$token = $user->createToken('devlog')->accessToken;
 			
-			// //Remmeber token check
-			if ($request->remember_token) {
-                
-			}
 			
 			//Send success message with token and authenticated user info 
 			return response()->json([
