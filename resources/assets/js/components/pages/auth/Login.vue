@@ -59,21 +59,6 @@
                                     </div>
                                 </div>
 
-                                <div class="uk-margin">
-                                    <div class="uk-form-controls">
-                                        <div class="uk-clearfix">
-                                            <div class="uk-float-left">
-                                                <label>
-                                                    <input  v-model="form.remember" 
-                                                            type="checkbox" 
-                                                            name="remember"
-                                                            class="uk-checkbox uk-margin-small-right">
-                                                        Remember Me
-                                                </label>
-                                            </div> 
-                                        </div>
-                                    </div>
-                                </div>
 
                                 <div class="uk-margin">
                                     <div class="uk-form-controls">
@@ -112,8 +97,7 @@
                 form: {
                     action: 'login',
                     email: '',
-                    password: '',
-                    remember: false
+                    password: ''
                 },
                 flashMessage:{
                     message:'',
